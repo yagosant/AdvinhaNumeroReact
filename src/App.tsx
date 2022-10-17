@@ -15,6 +15,11 @@ function App() {
 
  useEffect(()=>{
   if((parseInt(numero1) + 3) == numSurpresa) alert(`Quaaaaase o número surpresa era ${numSurpresa} e você informou ${numero1}`)
+  if((parseInt(numero1) + 2) == numSurpresa) alert(`Quaaaaase o número surpresa era ${numSurpresa} e você informou ${numero1}`)
+  if((parseInt(numero1) + 1) == numSurpresa) alert(`Quaaaaase o número surpresa era ${numSurpresa} e você informou ${numero1}`)
+  if((parseInt(numero1) - 3) == numSurpresa) alert(`Quaaaaase o número surpresa era ${numSurpresa} e você informou ${numero1}`)
+  if((parseInt(numero1) - 2) == numSurpresa) alert(`Quaaaaase o número surpresa era ${numSurpresa} e você informou ${numero1}`)
+  if((parseInt(numero1) - 1) == numSurpresa) alert(`Quaaaaase o número surpresa era ${numSurpresa} e você informou ${numero1}`)
  },[numSurpresa]);
   
   return (
