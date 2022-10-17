@@ -26,7 +26,7 @@ function App() {
     <div className="App">
      <h2>Advinha os números Aeee</h2>
      <form action="">
-     <label htmlFor="">Chuta um número Ai: </label>
+     <label htmlFor="">Qual o número vai ser validado: </label>
      <input type="number" name="numero1" id={numero1} value={numero1} onChange={(e) => setNumero1(e.target.value)} placeholder='informe o número...'/>
      </form>
      <button onClick = {validarNumero}>Chutar</button>
